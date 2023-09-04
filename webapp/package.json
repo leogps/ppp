@@ -9,8 +9,8 @@
     "gen-pwa-icons": "npx ngx-pwa-icons -i src/favicon.png",
     "gen-app-info": "node app-version.js",
     "ng": "npx ionic",
-    "start": "npx ionic serve",
-    "build": "npx ionic build",
+    "start": "npx ionic serve --openssl-legacy-provider",
+    "build": "npx ionic build --openssl-legacy-provider",
     "test": "npx ionic test",
     "lint": "npx ionic lint",
     "e2e": "npx ionic e2e"

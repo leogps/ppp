@@ -588,8 +588,8 @@ class Builder(object):
             'DISABLE_EXCEPTION_CATCHING': 0,
             'TOTAL_MEMORY': 268435456,  # 268MB is too much?
             'RESERVED_FUNCTION_POINTERS': 1,
-            'EXTRA_EXPORTED_RUNTIME_METHODS':
-            "['addFunction','removeFunction','_malloc']",
+            'EXTRA_EXPORTED_RUNTIME_METHODS': "['addFunction','removeFunction','_malloc']",
+            'EXPORTED_FUNCTIONS': "['_malloc']",
             'FETCH': 1,
             'WASM': 1,
         }
